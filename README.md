@@ -1,8 +1,17 @@
-# Money Exchange App
+# Money Exchange App :money_with_wings:
+
+![moneyExchange-language](https://img.shields.io/github/languages/top/theRobertSan/MoneyExchange)
 
 Money Exchange App is a distributed Client-Server Java App.
+
 The Server Application has access to the accounts of the registered users and offers different types of functionalities
-regarding money exchange. Users are required to use the Client App to interact with the server.
+regarding money exchange.
+
+Users are required to use the Client App to interact with the server.
+
+## Functionalities
+
+Here are some possible use-case scenarios between user John and Alice!
 
 ### [B]alance
 
@@ -119,7 +128,7 @@ This app has security in mind.
 
 ## How to run the server?
 
-*Example*: Open a console inside /out/jarsand and type the following:
+*Example*: Open a console inside /jars and type the following:
 
 ```java -jar MoneyExchangeServer.jar 123456 keystore.server 123456```
 
@@ -129,10 +138,13 @@ This app has security in mind.
 
 ## How to run a client?
 
-*Example*: Open a console inside /out/jars and type the following:
+There are two provided client certificates. Alice's and John's.
+
+*Example*: Run a client as John. Open a console inside /jars and type the following:
 
 ```java -jar MoneyExchangeClient.jar 127.0.0.1 truststore.client johnKeyStore 123456 John```
 
 ## Disclaimer:
 
-This app displays a lot of security-related information on purpose to showcase how its security protocols work.
+This app displays plenty of security-related information on purpose in order to showcase how its security protocols
+work.
