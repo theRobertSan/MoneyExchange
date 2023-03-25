@@ -1,5 +1,7 @@
 # Money Exchange App :money_with_wings:
 
+<b>Disclaimer: This repository is a public display-only version of a private repository. </b>
+
 ![moneyExchange-language](https://img.shields.io/github/languages/top/theRobertSan/MoneyExchange)
 
 Money Exchange App is a distributed Client-Server Java App.
